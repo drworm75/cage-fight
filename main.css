@@ -1,0 +1,60 @@
+body {
+	background: url('./images/Cage-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+p {
+	font-style: bold;
+	font-size: 1.5em;
+}
+
+h2 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.5em;
+	color: red;
+}
+
+.navbar-custom {
+    /*background: url('./images/arcade-font-writer.png') no-repeat !important;*/
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+.fighters-row {
+	padding-top: 250px;
+}
+
+.pic-container {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.pic {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.cross {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.fighting {
+	min-height: 100px
+	vertical-align: 40px;
+
+}
+
+.reveal, .winner {
+	vertical-align: 40px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.reveal {
+	font-family: 'Press Start 2P', cursive; 
+}

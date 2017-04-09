@@ -3,9 +3,63 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Cage Match</title>
-	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">	
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="main.css">	
 </head>
 <body>
+	<div class="row">		
+		<div class="navbar navbar-custom">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-6">
+				<img src="./images/arcade-font-writer.png">
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+		<div class="row fighters-row">
+			<div class="col-md-3"></div>
+			<div class="fighter-container">
+				<div class="col-md-2 fighter">
+					<h2>Zoe A.</h2>
+					<div class="pic-container">
+						<img src="./images/8bit-zoe.png" alt="zoe" class="pic" height="200px" width="200px">
+						<img src="./images/cross-200.png" alt="nope" class="cross hidden" data-winner="<img src='./images/zoewins.png'>" height="200px" width="200px">
+					</div>
+				</div>
+				<div class="col-md-2 fighter">
+					<h2>Callan M.</h2>
+					<div class="pic-container">
+						<img src="./images/8bit-callan.png" alt="callan" class="pic" height="200px" width="200px">
+						<img src="./images/cross-200.png" alt="nope" class="cross hidden" data-winner="<img src='./images/callanwins.png'>" height="200px" width="200px">
+					</div>	
+				</div>
+				<div class="col-md-2 fighter">
+					<h2>Lauren R.</h2>
+					<div class="pic-container">
+						<img src="./images/8bit-lauren.png" alt="lauren" class="pic" height="200px" width="200px">
+						<img src="./images/cross-200.png" alt="nope" class="cross hidden" data-winner="<img src='./images/laurenwins.png'>" height="200px" width="200px">
+					</div>	
+				</div>
+			</div>	
+			<div class="col-md-3 "></div>	
+		</div>
+	</div>
+	<div class="fighting row">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-3">
+		<div class="button-container">
+			<button class="reveal">Fight!</button>
+		</div>
+		</div>
+		<div class="col-md-5 winner">
+		</div>
+		<div class="col-md-2">
+		</div>
+	</div>		
+
 	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="./javascripts/main.js"></script>
